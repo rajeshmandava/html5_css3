@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+#parent {
+  display: flex;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  display: flex;
+
+  padding: 10px;
+  list-style: none;
+}
