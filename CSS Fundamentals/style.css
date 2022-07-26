@@ -1,35 +1,42 @@
+* {
+  font-display: inherit;
+  /* color: bisque; */
+}
+body {
+  color: #444;
+  font-family: sans-serif;
+  color: grey;
+}
+
 h1,
 h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
+h3 {
+  color: #1098ad;
 }
 
 h1 {
   font-size: 26px;
   text-transform: none;
   font-style: none;
-  color: rgb(4, 164, 164);
+  /* color: rgb(4, 164, 164); */
 }
 
 h2 {
   font-size: 40px;
   text-transform: none;
   font-style: none;
-  color: rgb(17, 109, 188);
+  /* color: rgb(17, 109, 188); */
 }
 
 h3 {
   font-size: 30px;
-  color: black;
+  /* color: black; */
 }
 h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
-  color: blueviolet;
+  /* color: blueviolet; */
 }
 
 p {
@@ -80,13 +87,9 @@ aside {
   border-bottom: 5px dotted rgb(201, 171, 230);
 }
 
-body {
-  /* background-color: rgb(203, 232, 222); */
-}
-
 .related-css {
   /* border: 3px rgb(126, 213, 213); */
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 /* .first-li {
@@ -125,4 +128,24 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+/* #copyright {
+  color: blue;
+}
+
+.text {
+  color: green;
+}
+
+.copyright {
+  color: red;
+}
+
+footer p {
+  color: yellow;
+} */
+
+nav {
+  font-size: 18px;
 }
