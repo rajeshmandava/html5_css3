@@ -11,29 +11,35 @@ h1 {
   font-size: 26px;
   text-transform: none;
   font-style: none;
+  color: rgb(4, 164, 164);
 }
 
 h2 {
   font-size: 40px;
   text-transform: none;
   font-style: none;
+  color: rgb(17, 109, 188);
 }
 
 h3 {
   font-size: 30px;
+  color: aquamarine;
 }
 h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  color: blueviolet;
 }
 
 p {
   font-size: 20px;
   line-height: 1.5;
+  color: rgb(82, 50, 100);
 }
 
 li {
+  color: rgb(0, 124, 190);
   font-size: 20px;
 }
 
@@ -61,4 +67,24 @@ li {
 
 .related-course {
   list-style: none;
+  color: rgb(69, 69, 69);
+}
+
+header {
+  background-color: azure;
+}
+
+aside {
+  background-color: azure;
+  border-top: 5px dotted rgb(201, 171, 230);
+  border-bottom: 5px dotted rgb(201, 171, 230);
+}
+
+body {
+  background-color: rgb(203, 232, 222);
+}
+
+.related-css {
+  border: 3px rgb(126, 213, 213);
+  padding: 10px;
 }
