@@ -23,7 +23,7 @@ h2 {
 
 h3 {
   font-size: 30px;
-  color: aquamarine;
+  color: black;
 }
 h4 {
   font-size: 20px;
@@ -39,7 +39,7 @@ p {
 }
 
 li {
-  color: rgb(0, 124, 190);
+  /* color: rgb(0, 124, 190); */
   font-size: 20px;
 }
 
@@ -81,10 +81,48 @@ aside {
 }
 
 body {
-  background-color: rgb(203, 232, 222);
+  /* background-color: rgb(203, 232, 222); */
 }
 
 .related-css {
-  border: 3px rgb(126, 213, 213);
+  /* border: 3px rgb(126, 213, 213); */
   padding: 10px;
+}
+
+/* .first-li {
+  font-weight: bold;
+  color: red;
+} */
+
+li:first-child {
+  font-weight: bold;
+  /* color: rgb(2, 95, 64); */
+}
+li:last-child {
+  font-style: italic;
+  /* color: rgb(115, 70, 3); */
+}
+
+li:nth-child(odd) {
+  /* color: rgb(112, 8, 100); */
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orange;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
 }
