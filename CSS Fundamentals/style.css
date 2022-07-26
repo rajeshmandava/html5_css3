@@ -1,11 +1,19 @@
 * {
   font-display: inherit;
   /* color: bisque; */
+  margin: 0;
+  padding: 10;
 }
+
 body {
   color: #444;
   font-family: sans-serif;
   color: grey;
+  margin: 0;
+}
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
 }
 
 h1,
