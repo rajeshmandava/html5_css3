@@ -16,6 +16,11 @@ body {
   padding: 20px 40px;
 }
 
+.post-pic {
+  height: auto;
+  width: 100%;
+}
+
 h1,
 h2,
 h3 {
