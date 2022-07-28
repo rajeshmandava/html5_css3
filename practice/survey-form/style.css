@@ -1,0 +1,11 @@
+.main-box {
+  width: 1200px;
+  height: 1200px;
+  border: 4px solid black;
+  position: relative;
+  margin: 20px;
+}
+
+.input-language {
+  border: 2px solid black;
+}

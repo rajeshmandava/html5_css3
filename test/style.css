@@ -27,9 +27,12 @@ body {
 /* PRODUCT INFORMATION */
 .price {
   font-size: 24px;
+  float: left;
+  width: 240px;
 }
 
 .shipping {
+  float: right;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
@@ -96,11 +99,15 @@ body {
   font-size: 16px;
   margin-bottom: 15px;
   margin-top: 30px;
+  float: right;
+  box-sizing: border-box;
 }
 
 .details-list {
   list-style: square;
   margin-left: 20px;
+  float: right;
+  box-sizing: border-box;
 }
 
 .details-list li {
@@ -123,4 +130,21 @@ body {
 .add-cart:hover {
   color: #000;
   background-color: #fff;
+}
+p {
+  width: 240px;
+}
+.image {
+  width: 240px;
+  float: left;
+}
+
+.product-description {
+  float: left;
+  width: 240px;
+}
+
+.colors {
+  float: left;
+  box-sizing: border-box;
 }
