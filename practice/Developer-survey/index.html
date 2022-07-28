@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Developer Survey form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="main-title">Developer Survey Form</h1>
+        <p class="main-description">
+          This survey to take the feedback of all the developers for the year
+          2022. Please help us giving your inputs. Select the technology stack
+          you are currently working and also select the tech stack if you wish
+          to work in different tech stack. If you are already happy with your
+          current tech stack choose I'm happy. Thank you for taking the time to
+          give your valuable inputs.
+        </p>
+      </header>
+      <form class="form" action="none">
+        <div class="form-group">
+          <label class="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email" class="email-label">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="number" class="number-label"
+            >Age
+            <span class="clue">(optional)</span>
+          </label>
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Age"
+          />
+        </div>
+        <div class="form-group">
+          <p>Which option best describes your current role</p>
+          <select name="role" id="dropdown" class="form-control" required>
+            <option disabled selected value>Select current role</option>
+            <option value="Front End Developer">Front End Developer</option>
+            <option value="Backed Developer">Backend Developer</option>
+            <option value="Full Stack Engineer">Full Stack Engineer</option>
+            <option value="Cloud Engineer">Cloud Engineer</option>
+            <option value="Devops Engineer">Devops Engineer</option>
+            <option value="Embedded Developer">Embedded Developer</option>
+            <option value="AI/ML Engineer">AI/ML Engineer</option>
+            <option value="Data Engineer">Data Engineer</option>
+            <option value="UI/UX developer">UI/UX developer</option>
+            <option value="Developer Advocate">Developer Advocate</option>
+            <option value="Others">Others</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>
+            Are you Happy with your current role or would you like to switch
+            role
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
